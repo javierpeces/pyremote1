@@ -25,7 +25,7 @@ expPTRrecord = re.compile( '.*IN.*PTR.*' )
 """
 
 argc = len( sys.argv )
-print( "; args", argc ) 
+print( "; Got {:d} args".format( argc ) ) 
 
 if argc < 3:
     print( "; three args needed. Exiting." )

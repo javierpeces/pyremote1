@@ -11,7 +11,7 @@ if __name__ == "__main__":
     
     for index, item in enumerate(sys.argv[1:]):
         
-        print("Arg {} contains {}".format(index, item))
+        print("This arg is # {} contains {}".format(index, item))
         scan = "nmap -sL -n " + str(item)
         print("\tScan command number {} is '{}'".format(index, scan))
     
