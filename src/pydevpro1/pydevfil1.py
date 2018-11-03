@@ -7,7 +7,7 @@ import sys
 
 if __name__ == "__main__":
     
-    print("hello")
+    print("I made some changes")
     
     for index, item in enumerate(sys.argv[1:]):
         
